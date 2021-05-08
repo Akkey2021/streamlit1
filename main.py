@@ -103,5 +103,5 @@ for i in range(100):
 
 'Show!!'
 
-img=Image.open('akkey.JPG')
+img=Image.open('4620693218551335404.cc1306cdfb8272d8b852eb1ec6477e7a.20111412.JPG')
 st.image(img, caption='Akkey',use_column_width=True)
