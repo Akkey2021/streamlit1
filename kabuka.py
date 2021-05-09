@@ -39,8 +39,8 @@ try:
     st.sidebar.write("""
     ## 株価の範囲を指定してください(USD)    
     """)
-    ymin, ymax =st.sidebar.slider('範囲',0,3500,(0,500))
-    #デフォルトの最小を0, 最大を3500に設定
+    ymin, ymax =st.sidebar.slider('範囲',0,500,(0,500))
+    #デフォルトの最小を0, 最大を500に設定
 
     TS={
         'APPLE':'AAPL',
