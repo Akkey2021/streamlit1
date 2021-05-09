@@ -76,7 +76,7 @@ try:
             .encode(
                 x="Date:T",
                 y=alt.Y("Stock prices(USD):Q", stack=None, scale=alt.Scale(domain=[ymin,ymax])),
-                color='TKR:N'
+                color='company:N'
             )
         )
         st.altair_chart(chart, use_container_width=True)
