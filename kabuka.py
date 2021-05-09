@@ -29,7 +29,7 @@ def get_data(days, TS):
         hist=hist[['Close']]
         hist.columns=[comp]
         hist=hist.T
-        hist.index.name='TKR'
+        hist.index.name='company'
         df = pd.concat([df,hist])
     return df
 
