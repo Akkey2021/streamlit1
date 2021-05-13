@@ -36,7 +36,7 @@ def get_tags(filepath):
     return tags_name
 
 st.title('Object detection App')
-uploaded_image=st.file_uploader('Choose an image...',type=['jpg','png'])
+uploaded_image=st.file_uploader('Choose an image...',type=['jpeg','jpg','png'])
 
 if uploaded_image is not None:
     img=Image.open(uploaded_image)
