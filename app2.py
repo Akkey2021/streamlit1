@@ -40,7 +40,7 @@ uploaded_image=st.file_uploader('Choose an image...',type=['jpg','png'])
 
 if uploaded_image is not None:
     img=Image.open(uploaded_image)
-    img_path=f'img/{uploaded_image.name}'
+    img_path=f'folder/{uploaded_image.name}'
     img.save(img_path) #fileパスの表示
 
     objects = detected_objects(img_path)
