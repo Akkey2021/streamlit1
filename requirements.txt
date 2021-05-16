@@ -2,4 +2,4 @@ streamlit==0.81.0
 altair==4.1.0
 yfinance==0.1.59
 azure-cognitiveservices-vision-computervision==0.8.0
-beautifulsoup4 @ file:///tmp/build/80754af9/beautifulsoup4_1601924105527/work
+
