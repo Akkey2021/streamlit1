@@ -24,6 +24,15 @@ st.write(f'''
 ■ 平均レビュースコア（最大5.0）は**{result1}**です
 ''')
 
+st.write('【最新のレビュー (6件)】')
+
+text=soup.find_all('div',attrs={'class':'review-body'})
+    
+for i in range(6):    
+    a=text[i].text.replace('\n','')
+    st.write(i+1)
+    st.write(a)
+
 #スクレイピングの練習
 
 
