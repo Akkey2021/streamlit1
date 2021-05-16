@@ -29,7 +29,7 @@ st.write('【最新のレビュー (6件)】')
 text=soup.find_all('div',attrs={'class':'review-body'})
     
 for i in range(6):    
-    a=text[i].text.replace('\n','')
+    a=text[i].text.replace('\n','').replace('白井','あっきー')
     st.write(i+1)
     st.write(a)
 
